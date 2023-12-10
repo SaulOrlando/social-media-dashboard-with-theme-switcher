@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="salando">
+  <link rel="stylesheet" href="./src/css/font.css">
+  <link rel="stylesheet" href="./dist/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Salando</title>
+</head>
+
+<body class="font-inter text-sm px-6 py-10 relative text-dark-grayish-blue">
+  <div class="bg-very-pale-blue absolute inset-0 rounded-b-3xl h-60 -z-10"></div>
+  <header class="flex flex-col gap-3">
+    <article class="font-bold">
+      <h1 class="text-2xl text-very-dark-blue">
+        Social Media Dashboard
+      </h1>
+      <h2 class="pt-3 pb-6">
+        Total Followers: 23,004
+      </h2>
+      <div class="h-[1px] bg-dark-grayish-blue"></div>
+    </article>
+    <section class="font-bold flex justify-between">
+      <h2>
+        Dark Mode
+      </h2>
+      <button class="bg-toggle h-6 w-12 p-1 rounded-full flex justify-end" id="switcher">
+        <div class="rounded-full h-full w-[37%] bg-white transition-transform" id="thumb"></div>
+      </button>
+    </section>
+  </header>
+  <section class="mt-10 grid grid-cols-1 gap-6">
+    <section class="flex flex-col bg-light-grayish-blue border-t-4 border-facebook rounded">
+      <article class="my-6 flex flex-col gap-7">
+        <section class="flex gap-2 w-full justify-center">
+          <img src="./images/icon-facebook.svg" alt="icon facebook">
+          <p>
+            @nathanf
+          </p>
+        </section>
+        <section class="flex flex-col text-very-dark-blue gap-2 text-center">
+          <h2 class="font-bold text-5xl">1987</h2>
+          <p class="uppercase">Followers</p>
+        </section>
+        <section class="flex gap-1 text-lime-green justify-center items-center font-bold">
+          <img src="./images/icon-up.svg" alt="icon up">
+          <p>
+            12 Today
+          </p>
+        </section>
+      </article>
+    </section>
+    <section class="flex flex-col bg-light-grayish-blue border-t-4 border-twitter rounded">
+      <article class="my-6 flex flex-col gap-7">
+        <section class="flex gap-2 w-full justify-center">
+          <img src="./images/icon-twitter.svg" alt="icon twitter">
+          <p>
+            @nathanf
+          </p>
+        </section>
+        <section class="flex flex-col text-very-dark-blue gap-2 text-center">
+          <h2 class="font-bold text-5xl">1044</h2>
+          <p class="uppercase">Followers</p>
+        </section>
+        <section class="flex gap-1 text-lime-green justify-center items-center font-bold">
+          <img src="./images/icon-up.svg" alt="icon up">
+          <p>
+            99 Today
+          </p>
+        </section>
+      </article>
+    </section>
+    <section class="flex flex-col bg-light-grayish-blue rounded relative">
+      <div class="absolute h-1 bg-gradient-to-r from-instagram-color-1 to-instagram-color-2 bottom-full w-full rounded">
+      </div>
+      <article class="my-6 flex flex-col gap-7">
+        <section class="flex gap-2 w-full justify-center">
+          <img src="./images/icon-instagram.svg" alt="icon instagram">
+          <p>
+            @realnathanf
+          </p>
+        </section>
+        <section class="flex flex-col text-very-dark-blue gap-2 text-center">
+          <h2 class="font-bold text-5xl">11k</h2>
+          <p class="uppercase">Followers</p>
+        </section>
+        <section class="flex gap-1 text-lime-green justify-center items-center font-bold">
+          <img src="./images/icon-up.svg" alt="icon up">
+          <p>
+            1099 Today
+          </p>
+        </section>
+      </article>
+    </section>
+    <section class="flex flex-col bg-light-grayish-blue rounded border-t-4 border-youtube">
+      <article class="my-6 flex flex-col gap-7">
+        <section class="flex gap-2 w-full justify-center">
+          <img src="./images/icon-youtube.svg" alt="icon youtube">
+          <p>
+            Nathan F.
+          </p>
+        </section>
+        <section class="flex flex-col text-very-dark-blue gap-2 text-center">
+          <h2 class="font-bold text-5xl">8239</h2>
+          <p class="uppercase">Followers</p>
+        </section>
+        <section class="flex gap-1 text-bright-red justify-center items-center font-bold">
+          <img src="./images/icon-down.svg" alt="icon up">
+          <p>
+            144 Today
+          </p>
+        </section>
+      </article>
+    </section>
+  </section>
+  <h3 class="font-bold text-2xl mt-12 mb-7">
+    Overview - Today
+  </h3>
+  <section class="grid grid-cols-1 gap-y-4">
+    <article class="flex flex-col gap-6 bg-light-grayish-blue rounded p-7">
+      <header class="flex justify-between">
+        <h4 class="font-bold">Page Views</h4>
+        <img src="./images/icon-facebook.svg" alt="icon facebook">
+      </header>
+      <footer class="flex justify-between">
+        <h5 class="text-2xl font-bold text-very-dark-blue">87</h5>
+        <section class="flex gap-1 items-center text-lime-green font-bold">
+          <img src="./images/icon-up.svg" alt="icon up">
+          <p>3%</p>
+        </section>
+      </footer>
+    </article>
+    <article class="flex flex-col gap-6 bg-light-grayish-blue rounded p-7">
+      <header class="flex justify-between">
+        <h4 class="font-bold">Likes</h4>
+        <img src="./images/icon-facebook.svg" alt="icon facebook">
+      </header>
+      <footer class="flex justify-between">
+        <h5 class="text-2xl font-bold text-very-dark-blue">52</h5>
+        <section class="flex gap-1 items-center text-bright-red font-bold">
+          <img src="./images/icon-down.svg" alt="icon down">
+          <p>2%</p>
+        </section>
+      </footer>
+    </article>
+    <article class="flex flex-col gap-6 bg-light-grayish-blue rounded p-7">
+      <header class="flex justify-between">
+        <h4 class="font-bold">Likes</h4>
+        <img src="./images/icon-instagram.svg" alt="icon instagram">
+      </header>
+      <footer class="flex justify-between">
+        <h5 class="text-2xl font-bold text-very-dark-blue">5462</h5>
+        <section class="flex gap-1 items-center text-lime-green font-bold">
+          <img src="./images/icon-up.svg" alt="icon up">
+          <p>2257%</p>
+        </section>
+      </footer>
+    </article>
+    <article class="flex flex-col gap-6 bg-light-grayish-blue rounded p-7">
+      <header class="flex justify-between">
+        <h4 class="font-bold">Profile Views</h4>
+        <img src="./images/icon-instagram.svg" alt="icon instagram">
+      </header>
+      <footer class="flex justify-between">
+        <h5 class="text-2xl font-bold text-very-dark-blue">52k</h5>
+        <section class="flex gap-1 items-center text-lime-green font-bold">
+          <img src="./images/icon-up.svg" alt="icon up">
+          <p>1375%</p>
+        </section>
+      </footer>
+    </article>
+    <article class="flex flex-col gap-6 bg-light-grayish-blue rounded p-7">
+      <header class="flex justify-between">
+        <h4 class="font-bold">Retweets</h4>
+        <img src="./images/icon-twitter.svg" alt="icon twitter" class="h-[17px]">
+      </header>
+      <footer class="flex justify-between">
+        <h5 class="text-2xl font-bold text-very-dark-blue">117</h5>
+        <section class="flex gap-1 items-center text-lime-green font-bold">
+          <img src="./images/icon-up.svg" alt="icon up">
+          <p>303%</p>
+        </section>
+      </footer>
+    </article>
+    <article class="flex flex-col gap-6 bg-light-grayish-blue rounded p-7">
+      <header class="flex justify-between">
+        <h4 class="font-bold">Likes</h4>
+        <img src="./images/icon-twitter.svg" alt="icon twitter" class="h-[17px]">
+      </header>
+      <footer class="flex justify-between">
+        <h5 class="text-2xl font-bold text-very-dark-blue">507</h5>
+        <section class="flex gap-1 items-center text-lime-green font-bold">
+          <img src="./images/icon-up.svg" alt="icon up">
+          <p>553%</p>
+        </section>
+      </footer>
+    </article>
+    <article class="flex flex-col gap-6 bg-light-grayish-blue rounded p-7">
+      <header class="flex justify-between">
+        <h4 class="font-bold">Likes</h4>
+        <img src="./images/icon-youtube.svg" alt="icon youtube">
+      </header>
+      <footer class="flex justify-between">
+        <h5 class="text-2xl font-bold text-very-dark-blue">107</h5>
+        <section class="flex gap-1 items-center text-bright-red font-bold">
+          <img src="./images/icon-down.svg" alt="icon down">
+          <p>19%</p>
+        </section>
+      </footer>
+    </article>
+    <article class="flex flex-col gap-6 bg-light-grayish-blue rounded p-7">
+      <header class="flex justify-between">
+        <h4 class="font-bold">Total Views</h4>
+        <img src="./images/icon-youtube.svg" alt="icon youtube">
+      </header>
+      <footer class="flex justify-between">
+        <h5 class="text-2xl font-bold text-very-dark-blue">1407</h5>
+        <section class="flex gap-1 items-center text-bright-red font-bold">
+          <img src="./images/icon-down.svg" alt="icon down">
+          <p>12%</p>
+        </section>
+      </footer>
+    </article>
+  </section>
+  <div class="text-center my-12 font-bold">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="transition-colors text-very-dark-blue hover:text-bright-red">Frontend Mentor</a>.
+    <br>
+    Coded by <a href="https://github.com/SaulOrlando" target="_blank" class="transition-colors text-very-dark-blue hover:text-bright-red">Salando</a>.
+  </div>
+  <script src="./src/js/switcher.js"></script>
+</body>
+
+</html>
