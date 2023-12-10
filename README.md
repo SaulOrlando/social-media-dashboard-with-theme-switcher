@@ -68,7 +68,7 @@ Modo claro
 
 Modo oscuro
 
-![desktop-dark](./screenshots/dektop-dark.png)
+![desktop-dark](./screenshots/desktop-dark.png)
 
 ## Indice
 
